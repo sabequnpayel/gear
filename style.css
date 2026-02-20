@@ -18,13 +18,11 @@
    color: azure;
 }
 /*-------------------------------------------------------nav bar--------------------------------------------------------*/
-.front-page{
-    align-items: center;
-    justify-content: space-around;
-    margin: 120px;
-    gap: 120px;
-}
 
+.navbar-container{
+   align-items: center;
+   justify-content: space-around;
+}
 .logo{
     color: rgba(58, 58, 58, 1);
     font-size: 1.5rem;
@@ -41,18 +39,39 @@ a{
     font-weight: 600;
 }
 /*-------------------------------------------------------front page--------------------------------------------------------*/
- .big-heading{
+.front-page{
+    align-items: center;
+    justify-content: space-around;
+    margin: 120px;
+    gap: 120px;
+}
+ 
+.big-heading{
      font-size: 3.5rem;
      color: #3A3A3A;
      font-weight: bold;
      margin: 0;
  }
+
  .title{
 font-size: 1rem;
 color: #3A3A3A;
 font-weight: 600;
 margin: 1rem 0;
  }
+
  .front-page-img{
-    
+    background-image: url(/images/Circle\ design.svg);
  }
+
+ /*------------------------------------------------------------row-----------------------------------------------------------------------*/
+
+ .row-container{
+  
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: auto;
+ }
+ 
+  /*----------------------------------------------------------------second page-----------------------------------------------------------*/
