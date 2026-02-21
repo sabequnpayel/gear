@@ -67,7 +67,6 @@ margin: 1rem 0;
  /*------------------------------------------------------------row-----------------------------------------------------------------------*/
 
  .row-container{
-  
     justify-content: center;
     align-items: center;
     gap: 3rem;
@@ -116,4 +115,34 @@ margin: 1rem 0;
  font-size: 0.9rem;
  color:rgba(120, 120, 133, 1);
  font-weight: 800;
+}
+
+
+@media screen and (max-width: 576px) {
+    body {
+  margin: 0;
+  padding: 0;
+    }
+
+    .flex{
+        flex-direction: column;
+    }
+    .nav-links{
+        display: none;
+    }
+    .row-container{
+      justify-items: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .front-page-img{
+        background-image: none;
+    }
+    .card-container{
+    
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   gap: 3rem;
+    }
+
 }
