@@ -204,7 +204,7 @@ margin: 1rem 0;
 .grid-1{
     grid-area: grid-1;
     img{
-        display: auto;
+        display: 100%;
     }
 }
 .grid-2{
@@ -226,6 +226,10 @@ margin: 1rem 0;
     grid-template-areas: 
     " grid-2"
     " grid-1";
+}
+.footer{
+    padding: auto 50px;
+    margin-top: 50px;
 }
 
 
